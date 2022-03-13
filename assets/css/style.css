@@ -2,7 +2,7 @@
 Текст #383127
 header rgba(56, 49, 39, 0.7)
 Навигация #fae6be rgba(250, 230, 190, 1);
-Лава #dc5b21 rgba(220, 91, 33, .9)
+Лава #58624c rgba(220, 91, 33, .9)
 Бежевый фон #e4dbbf
 Коричневый фон
 
@@ -32,16 +32,16 @@ header rgba(56, 49, 39, 0.7)
 
 body {
   margin: 0;
-  font-family: 'Margot';
+  font-family: 'ametist';
 
   background-color: #fff;
   font-size: 14px;
-  color: #383127;
+  color: #372f25;
 }
 
 .darkmode {
   background-color: #372d23;
-  color: #fae6be;
+  color: #b4bf99;
 }
 
 
@@ -56,8 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-font-family: "Margot";
-src: url("../fonts/Margot.ttf?v2.6") format("truetype");
+font-family: "ametist";
+src: url("../fonts/ametist.ttf?v2.6") format("truetype");
 font-style: normal;
 font-weight: normal;
 }
@@ -72,10 +72,10 @@ font-weight: normal;
 
 /* ----------Header---------- */
 .header {
-  background-color: rgba(56, 49, 39, 0.7);
+  background-color: #58624c;
   width: 100%;
   height: 100px;
-
+  opacity: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -106,8 +106,8 @@ font-weight: normal;
 
   text-decoration: none;
 
-  color: #fae6be;
-  opacity: .8;
+  color: #b9c19c;
+  /* opacity: .9; */
   transition: all .1s linear;
 }
 
@@ -129,7 +129,7 @@ font-weight: normal;
 
   height: 100vh;
 
-  background: #383127 url("../images/intro-bg.jpg?v2.6") center no-repeat;
+  background: #383127 url("../images/pampadour-bg.jpg?v2.6") center no-repeat;
   background-size: cover;
 }
 
@@ -168,7 +168,7 @@ font-weight: normal;
   cursor: pointer;
 
   font-size: 30px;
-  color: #fae6be;
+  color: #b9c19c;
   font-weight: 600;
   text-decoration: none;
   text-align: center;
@@ -178,18 +178,13 @@ font-weight: normal;
 }
 
 .btn--red {
-  background-color: #dc5b21;
+  background-color: #58624c;
 }
 
 .btn--light {
   background-color: #FFD300;
 }
 
-
-.btn--red:hover {
-  background-color: #383127;
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-}
 
 .btn--red:hover {
   background-color: #383127;
@@ -212,12 +207,12 @@ font-weight: normal;
 }
 
 .phone__number--dark {
-  color: #fae6be;
+  color: #b9c19c;
 }
 
 .phone__number:hover {
-  color: #dc5b21;
-
+  color: #383127;
+  opacity: .7;
 }
 
 
@@ -225,7 +220,7 @@ font-weight: normal;
 .block__header {
 
   font-size: 2em;
-  color: #dc5b21;
+  color: #372f25;
   text-align: center;
 }
 
@@ -257,7 +252,7 @@ font-weight: normal;
 }
 
 .catalog__item:hover {
-    background-color: rgba(220, 91, 33, .5);
+    background-color: #b9c19c;
     border-radius: 15px;
 
     text-shadow: 1px 1px .1px #383127;
@@ -277,12 +272,12 @@ font-weight: normal;
 }
 
 .catalog__title--dark {
-  color: #fae6be;
+  color: #b4bf99;
 }
 
 .catalog__text {
   font-size: 20px;
-  color: #dc5b21;
+  color: #58624c;
   line-height: 1.5em;
 }
 
@@ -299,7 +294,7 @@ font-weight: normal;
   height: 350px;
   margin: 5px;
 
-  border: 3px solid rgba(220, 91, 33, .5);
+  border: 3px solid #b9c19c;
   border-radius: 15px;
 
   position: relative;
@@ -328,7 +323,7 @@ font-weight: normal;
   height: 100%;
   opacity: 0;
 
-  background: rgba(220, 91, 33, .5);
+  background: #b9c19c;
 
   text-align: center;
 
@@ -344,7 +339,7 @@ font-weight: normal;
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  color: #372f25;
   text-transform: uppercase;
 }
 
@@ -374,16 +369,16 @@ font-weight: normal;
 .gallery a {
   display: flex;
   /* width: 20%; */
-  height: 300px;
+  height: 280px;
   width: 230px;
   margin: 15px;
 
   position: relative;
   overflow: hidden;
 
-  background: rgba(220, 91, 33, .3);
+  background: #b9c19c;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   top: 0;
 
@@ -397,9 +392,9 @@ font-weight: normal;
 }
 
 .gallery a:hover {
-  color: #dc5b21;
-  border: 2px solid #dc5b21;
-  text-shadow: 1px 1px .1px #383127;
+  color: #58624c;
+  border: 2px solid #58624c;
+  text-shadow: .3px .3px .1px #383127;
 
 }
 
@@ -413,7 +408,7 @@ font-weight: normal;
   width: 100%;
 
   position: absolute;
-  top: 46%;
+  top: 50%;
   left: 50%;
   z-index: 1;
   transform: translate3d(-50%, -50%, 0);
@@ -439,7 +434,7 @@ font-weight: normal;
 /* ============= Footer ============= */
 
 .footer {
-  background-color: #dc5b21;
+  background-color: #58624c;
   /* margin-top: 100px */
 }
 
@@ -481,7 +476,7 @@ font-weight: normal;
 .phone__footer:hover {
   text-decoration: none;
 
-  color: #383127;
+  color: #b9c19c;
 }
 
 .footer__text {
@@ -500,7 +495,7 @@ font-weight: normal;
 }
 
 .footer .whatsapp__item:hover {
-  color: #383127;
+  color: #b9c19c;
   text-shadow: 0;
 }
 
@@ -528,27 +523,27 @@ font-weight: normal;
 }
 
 .phone__item {
-  fill: rgba(220, 91, 33, .9);
+  fill: #372f25;
 }
 
 .phone__item:hover {
-  fill: rgba(220, 91, 33, 1);
+  fill: #b9c19c;
 }
 
 .whatsapp__item {
-  fill: rgba(76, 175, 80, .9);
+  fill: #372f25;
 }
 
 .whatsapp__item:hover {
-  fill: rgba(76, 175, 80, 1);
+  fill: #b9c19c;
 }
 
 .instagram__item {
-  fill: rgba(247, 77, 89, .9);
+  fill: #372f25;
 }
 
 .instagram__item:hover {
-  fill: rgba(247, 77, 89, 1);
+  fill: #b9c19c;
 }
 
 .social__icon:hover {
@@ -574,7 +569,7 @@ font-weight: normal;
   width: 30px;
   height: 3px;
 
-  background-color: #dc5b21;
+  background-color: #58624c;
 
   font-size: 0;
   color: transparent;
@@ -597,7 +592,7 @@ font-weight: normal;
   width: 100%;
   height: 100%;
 
-  background-color: #dc5b21;
+  background-color: #58624c;
 
   position: absolute;
   left: 0;
@@ -654,13 +649,13 @@ font-weight: normal;
 }
 
 .burger__link:hover {
-    background-color: #dc5b21;
+    background-color: #58624c;
     border-radius: 15px;
 
 }
 
 hr {
-  border: 4px dotted rgba(220, 91, 33, .3);
+  border: 4px dotted #b9c19c;
   border-radius: 10px;
   height: 10px;
 }
@@ -749,7 +744,7 @@ hr {
   .burger {
     display: block;
 
-    color: #dc5b21;
+    color: #58624c;
   }
 
   .m {
