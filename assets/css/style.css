@@ -512,7 +512,7 @@ font-weight: normal;
 }
 
 .social__item {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .social__icon {
@@ -1087,7 +1087,7 @@ hr {
   .social__item {
     margin-left: 0;
 
-    margin: 0 20px;
+    margin: 0 10px;
   }
 }
 
