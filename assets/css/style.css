@@ -242,7 +242,7 @@ font-weight: normal;
 }
 
 .catalog__item {
-  width: 33.33333%;
+  width: 25%;
   padding: 30px 30px;
   margin: 0;
 
@@ -815,7 +815,7 @@ hr {
 
       /* Catalog */
   .catalog__item {
-    width: 50%;
+    width: 33%;
   }
 
       /* Stuff */
@@ -858,7 +858,7 @@ hr {
   }
 
   .catalog__item {
-    /* width: 33.33333%; */
+    width: 50%;
     padding: 10px;
   }
 
@@ -902,7 +902,7 @@ hr {
   }
 
   .gallery img {
-    height: 150px;
+    /* height: 150px; */
   }
 
   .reviews {
@@ -938,7 +938,7 @@ hr {
 
   /* Catalog */
   .catalog__icon {
-    width: 150px;
+    /* width: 150px; */
     margin-top: 15px;
   }
 
